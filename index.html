@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="tudo">
+        <div id="login">
+            <h2>Login</h2>
+            <div id="contasexternas">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-google"></i>
+            </div>
+            <input type="email" name="emaillogin" id="emaillogin">
+            <input type="password" name="senhalogin" id="senhalogin">
+            <input type="button" value="Entrar">
+        </div>
+        <div id="cadastro">
+            <h2>Cadastro</h2>
+            <input type="text" name="nomeusuario" id="nomeusuario">
+            <input type="email" name="emailcadastro" id="emailcadastro">
+            <input type="password" name="senhacadastro" id="senhacadastro">
+            <input type="button" value="Cadastrar">
+        </div>
+        <div id="botaologin">
+            <h2>Bem vindo de volta!</h2>
+            <p>Para prosseguir com acesso ao nosso site, por favor insira suas informações de login</p>
+            <input type="button" value="Login" onclick="ativarlogin()">
+        </div>
+        <div id="botaocadastro">
+            <h2>Prazer em te conhecer!</h2>
+            <p>Sua primeira vez por aqui? Por favor insira algumas informações para que possa prosseguir com acesso ao nosso site</p>
+            <input type="button" value="Cadastrar" onclick="ativarcadastro()">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    width: 200px;
+    text-align: justify;
+}
+
+#pralogar {
+    border: 2px solid black;
+    padding: 15px;
+}
+
+#pracadastrar {
+    border: 2px solid black;
+    padding: 15px;
+}
+
+#formlogin {
+    display: none;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 340px;
+}
+
+#loginbutton {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+    height: 100%;
+}
+
+#formcad {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 340px;
+}
+
+#cadbutton {
+    display: none;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+    height: 100%;
+}

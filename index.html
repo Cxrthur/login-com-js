@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login em JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="pralogar">
+            <div id="formlogin">
+                <h1>Entrar</h1>
+                <input type="email" name="emailloginn" id="emaillogin" placeholder="E-mail">
+                <input type="password" name="senhaloginn" id="senhalogin" placeholder="Senha">
+                <input type="button" value="Entrar">
+            </div>
+            <div id="loginbutton">
+                <h1>Oi, de novo!</h1>
+                <p>Se já tem um cadastro em nosso site, realize o acesso clicando aqui!</p>
+                <input type="button" value="Já tenho!" onclick="logar()">
+            </div>
+        </div>
+        <div id="pracadastrar">
+            <div id="formcad">
+                <h1>Cadastro</h1>
+                <input type="text" name="usuarion" id="usuario" placeholder="Nome de usuário">
+                <input type="email" name="emailcadn" id="emailcad" placeholder="E-mail">
+                <input type="password" name="senhacadastron" id="senhacadastro" placeholder="Senha">
+                <input type="button" value="Cadastrar">
+            </div>
+            <div id="cadbutton">
+                <h1>Bem-vindo!</h1>
+                <p>Se ainda não tem um cadastro em nosso site, realize o cadastro clicando aqui!</p>
+                <input type="button" value="Criar um!" onclick="cadastrar()">
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

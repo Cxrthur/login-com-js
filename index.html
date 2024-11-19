@@ -5,34 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login em JS</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=question_mark" />
 </head>
 <body>
     <main>
         <div id="pralogar">
             <div id="formlogin">
                 <h1>Entrar</h1>
-                <input type="email" name="emailloginn" id="emaillogin" placeholder="E-mail">
-                <input type="password" name="senhaloginn" id="senhalogin" placeholder="Senha">
-                <input type="button" value="Entrar">
+                <div class="icones">
+                    <span class="material-symbols-outlined">question_mark</span>
+                    <span class="material-symbols-outlined">question_mark</span>
+                    <span class="material-symbols-outlined">question_mark</span>
+                </div>
+                <input type="email" name="emailloginn" id="emaillogin" placeholder="E-mail" class="inputchar">
+                <input type="password" name="senhaloginn" id="senhalogin" placeholder="Senha" class="inputchar">
+                <input type="button" value="Entrar" class="inputbutton">
             </div>
             <div id="loginbutton">
                 <h1>Oi, de novo!</h1>
-                <p>Se já tem um cadastro em nosso site, realize o acesso clicando aqui!</p>
-                <input type="button" value="Já tenho!" onclick="logar()">
+                <p>Se já tem um cadastro, acesse clicando aqui!</p>
+                <input type="button" value="Já tenho!" onclick="logar()" class="inputbutton">
             </div>
         </div>
         <div id="pracadastrar">
             <div id="formcad">
                 <h1>Cadastro</h1>
-                <input type="text" name="usuarion" id="usuario" placeholder="Nome de usuário">
-                <input type="email" name="emailcadn" id="emailcad" placeholder="E-mail">
-                <input type="password" name="senhacadastron" id="senhacadastro" placeholder="Senha">
-                <input type="button" value="Cadastrar">
+                <div class="icones">
+                    <span class="material-symbols-outlined">question_mark</span>
+                    <span class="material-symbols-outlined">question_mark</span>
+                    <span class="material-symbols-outlined">question_mark</span>
+                </div>
+                <input type="text" name="usuarion" id="usuario" placeholder="Nome de usuário" class="inputchar">
+                <input type="email" name="emailcadn" id="emailcad" placeholder="E-mail" class="inputchar">
+                <input type="password" name="senhacadastron" id="senhacadastro" placeholder="Senha" class="inputchar">
+                <input type="button" value="Cadastrar" class="inputbutton">
             </div>
             <div id="cadbutton">
                 <h1>Bem-vindo!</h1>
-                <p>Se ainda não tem um cadastro em nosso site, realize o cadastro clicando aqui!</p>
-                <input type="button" value="Criar um!" onclick="cadastrar()">
+                <p>Realize seu cadastro clicando aqui!</p>
+                <input type="button" value="Criar um!" onclick="cadastrar()" class="inputbutton">
             </div>
         </div>
     </main>

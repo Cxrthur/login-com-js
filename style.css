@@ -4,29 +4,54 @@
     padding: 0px;
 }
 
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 main {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
 }
 
-input {
+.inputchar {
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.inputbutton {
     width: 200px;
     height: 30px;
     margin-bottom: 10px;
 }
 
+.inputbutton:hover {
+    cursor: pointer;
+}
+
 p {
     width: 200px;
-    text-align: justify;
+    padding: 20px;
 }
 
 #pralogar {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
     border: 2px solid black;
     padding: 15px;
 }
 
 #pracadastrar {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
     border: 2px solid black;
     padding: 15px;
 }
@@ -34,17 +59,23 @@ p {
 #formlogin {
     display: none;
     flex-flow: column nowrap;
+    justify-content: center;
     align-items: center;
     width: 340px;
+}
+
+.icones {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 15px;
 }
 
 #loginbutton {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
     align-items: center;
+    padding: 20px;
     width: 340px;
-    height: 100%;
 }
 
 #formcad {
@@ -57,8 +88,7 @@ p {
 #cadbutton {
     display: none;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    padding: 20px;
     align-items: center;
     width: 340px;
-    height: 100%;
 }

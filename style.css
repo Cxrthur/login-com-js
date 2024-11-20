@@ -16,6 +16,8 @@ main {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
 }
 
 .inputchar {
@@ -23,6 +25,8 @@ main {
     height: 20px;
     padding: 10px;
     margin-bottom: 10px;
+    border-style: none;
+    box-shadow: -2px 4px 5px 0px rgba(0, 0, 0, 0.493);
 }
 
 .inputbutton {
@@ -40,20 +44,30 @@ p {
     padding: 20px;
 }
 
+
+.icones {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 15px;
+}
+
 #pralogar {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     padding: 15px;
+    background-color: rgba(255, 32, 32, 0.925);
 }
 
 #pracadastrar {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    border: 2px solid black;
     padding: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #formlogin {
@@ -62,20 +76,15 @@ p {
     justify-content: center;
     align-items: center;
     width: 340px;
-}
-
-.icones {
-    display: flex;
-    flex-flow: row nowrap;
-    padding: 15px;
+    border-radius: 5px;
 }
 
 #loginbutton {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    padding: 20px;
     width: 340px;
+    padding: 20px;
 }
 
 #formcad {
@@ -83,6 +92,8 @@ p {
     flex-flow: column nowrap;
     align-items: center;
     width: 340px;
+    border-radius: 5px;
+    background-color: white;
 }
 
 #cadbutton {

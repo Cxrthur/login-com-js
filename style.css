@@ -108,6 +108,7 @@ p {
     main {
         width: 70%;
         flex-flow: column nowrap;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
     }
 
     #pralogar {

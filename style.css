@@ -104,7 +104,7 @@ p {
     width: 340px;
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 768px) {
     main {
         flex-flow: column nowrap;
     }
